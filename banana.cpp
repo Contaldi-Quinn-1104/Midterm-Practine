@@ -25,6 +25,14 @@ void Banana::setPeel(bool newPeel)
 }
 
 void Banana::printBanana()
-{
-    cout << peel;
+{   
+    cout << "This fruit is a banana, and it is currently";
+    if (peel)
+    {
+        cout << " not peeled" << endl;
+    }
+    else
+    {
+        cout << " peeled" << endl;
+    } 
 }
